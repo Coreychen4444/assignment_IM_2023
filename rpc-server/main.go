@@ -9,6 +9,7 @@ import (
 	etcd "github.com/kitex-contrib/registry-etcd"
 )
 
+
 func main() {
 	r, err := etcd.NewEtcdRegistry([]string{"etcd:2379"}) // r should not be reused.
 	if err != nil {
