@@ -16,6 +16,7 @@ import (
 	etcd "github.com/kitex-contrib/registry-etcd"
 )
 
+
 var cli imservice.Client
 
 func main() {
