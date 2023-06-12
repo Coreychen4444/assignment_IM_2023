@@ -1,6 +1,7 @@
 // API for pull mode IM service.
 namespace go rpc
 
+
 struct Message {
     1: string Chat   // format "<member1>:<member2>", e.g. "john:doe"
     2: string Text   // message text content
